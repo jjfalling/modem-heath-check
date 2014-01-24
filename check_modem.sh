@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#sanity check to see if cable modem is working and restart if a failure is detected.
+#sanity check to see if modem is working and restart if a failure is detected.
 #take care if using dual wan
 #you probally should not run this more then every 10 min as your modem could take a while to boot!
 
