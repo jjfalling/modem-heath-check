@@ -52,7 +52,7 @@ if [ $? -ne 0 ]
   printf "\nlooks like modem management ip is not responding, trying to reboot anyway\n\n"
 fi
 
-logger CABLE MODEM SEEMS TO HAVE FAILED! Automagically attempting to reboot it now!
+logger MODEM SEEMS TO HAVE FAILED! Automagically attempting to reboot it now!
 $modemRebootCommand
 if [ $? -ne 0 ]
  then
