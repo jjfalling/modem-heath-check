@@ -2,7 +2,7 @@
 
 #sanity check to see if cable modem is working and restart if a failure is detected.
 #take care if using dual wan
-#dont run more then every 10 min as your modem could take a while to boot!
+#you probally should not run this more then every 10 min as your modem could take a while to boot!
 
 #checks first external ping host
 #if fails checks second external ping host
