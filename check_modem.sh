@@ -24,8 +24,8 @@ ping -c 4 $externalPingHost1
 if [ $? -ne 0 ]
  then
   printf "\nlooks like primary external host is down, trying secondary host\n\n"
+  
   ping -c 4 $externalPingHost2
-
   if [ $? -ne 0 ]
    then
     printf "\nlooks like secondary external host is down, trying local gateway\n\n"
