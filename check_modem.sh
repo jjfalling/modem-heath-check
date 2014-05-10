@@ -28,7 +28,7 @@ if [ $? -ne 0 ]
 
   if [ $? -ne 0 ]
    then
-    printf "\nlooks like external external host is down, trying local gateway\n\n"
+    printf "\nlooks like secondary external host is down, trying local gateway\n\n"
    else
     printf "\neverything is ok, exiting\n\n"
     exit 0
